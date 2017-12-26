@@ -1,0 +1,2 @@
+# Change where screenshots are saved by default (~/Desktop) to ~/Downloads
+defaults write com.apple.screencapture location ~/Downloads
