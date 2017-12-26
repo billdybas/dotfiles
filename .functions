@@ -1,0 +1,32 @@
+# List versions of packages on npm
+function npm-v {
+  eval "npm view $1 versions"
+}
+
+# Start a shell in the specified Docker container
+function dshell {
+  eval "docker exec -it $1 /bin/bash"
+}
+
+function vanish {
+  eval ""
+  # TODO: Clear all history files
+  # eg:
+  # .bash_history
+  # .python_history
+  # .viminfo
+  # .wget-hsts
+  # .lesshst
+  # .node_repl_history
+  # .psql_history
+  # .zcompdump-*
+}
+
+function self-destruct {
+  eval ""
+  # TODO:
+  # 1. Run Vanish
+  # 2. Uninstall Things Installed by dotfiles
+  # 3. Remove dotfiles (including this file)
+  # 4. Prints 'Kaboom!'
+}
