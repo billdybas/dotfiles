@@ -1,0 +1,13 @@
+PATH="~/bin:$PATH"
+
+# Set PATH for git
+export PATH="/usr/local/git/bin:$PATH"
+
+# Set PATH for Node & NPM
+export PATH="$HOME/.npm-packages/bin:$PATH"
+
+# Set PATH for Postgres.app CLI tools
+export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
+
+# Set PATH for Rust
+export PATH="$HOME/.cargo/bin:$PATH"
