@@ -1,0 +1,23 @@
+{
+  "breadcrumbs.enabled": true,
+  "editor.fontFamily": "Office Code Pro",
+  "editor.fontSize": 12,
+  "editor.multiCursorModifier": "alt",
+  "editor.renderWhitespace": "all",
+  "editor.tabSize": 2,
+  "explorer.autoReveal": false,
+  "explorer.openEditors.visible": 0,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  // Disables VSCode's JavaScript Validator so Flow works correctly
+  // See: https://github.com/flowtype/flow-for-vscode#setup
+  "javascript.validate.enable": false,
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "terminal.integrated.scrollback": 25000,
+  "window.restoreWindows": "all",
+  "window.zoomLevel": 0,
+  "workbench.colorTheme": "One Dark Vivid",
+  "workbench.iconTheme": "file-icons",
+  "workbench.startupEditor": "newUntitledFile"
+}
