@@ -13,6 +13,7 @@ brew install git
 brew install tmux
 brew install tree
 brew install vim
+brew install watchman
 brew install wget
 brew install zsh
 # Languages + Package Managers
