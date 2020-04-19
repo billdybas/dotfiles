@@ -1,5 +1,6 @@
 # Aliases for git commands
 # TODO: Look into Git Aliases https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases
+alias g="git"
 alias gs="git status" # NOTE: This overwrites GhostScript
 alias ga="git add"
 alias gc="git commit"
@@ -9,6 +10,8 @@ alias gpull="git pull"
 alias gfetch="git fetch"
 alias gdiff="git diff"
 alias gdc="git diff --cached"
+alias gg="git diff --cached"
+alias gdd="git diff -- . ':(exclude)*__generated__*'"
 alias goneline="git log --oneline --color"
 alias gtree="git log --graph --color --all"
 alias gundo="git reset --soft HEAD~"
@@ -24,3 +27,7 @@ alias ddown="docker-compose down"
 # SSE
 alias "sse-docker-up"="export DOCKER_HOST=tcp://127.0.0.1:32768"
 alias "sse-docker-down"="unset DOCKER_HOST"
+
+alias kn="killall node"
+alias save-ssh="ssh-add -K ~/.ssh/id_rsa"
+alias cdtmp="cd `mktemp -d /tmp/bill-XXXXXX`"
