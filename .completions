@@ -1,0 +1,1 @@
+[ -f /user/local/etc/bash_completion ] && . /user/local/etc/bash_completion
