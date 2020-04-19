@@ -88,14 +88,12 @@ brew cask install google-cloud-sdk
 brew cask install ngrok
 
 # Install Homebrew Cask Versions Formulae
-brew tap caskroom/versions
+brew tap homebrew/cask-versions
 brew cask install atom-beta
 brew cask install google-chrome-canary
 
 # Install Homebrew Fonts Formulae
-brew tap caskroom/fonts
+brew tap homebrew/cask-fonts
 brew cask install font-fira-code # See: https://github.com/tonsky/FiraCode
 brew cask install font-source-code-pro # See: https://github.com/adobe-fonts/source-code-pro
 brew cask install font-office-code-pro # See: https://github.com/nathco/Office-Code-Pro
-
-brew tap homebrew/science
