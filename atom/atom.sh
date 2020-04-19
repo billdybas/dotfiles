@@ -4,6 +4,7 @@
 echo "Installing Atom Packages"
 apm install atom-beautify
 apm install atom-clock
+apm install atom-ide-ui
 apm install atom-ternjs
 apm install atom-typescript
 apm install autocomplete-modules
@@ -13,7 +14,10 @@ apm install editorconfig
 apm install emmet
 apm install figlet
 apm install file-icons
+apm install flow-ide
+apm install git-blame
 apm install hey-pane
+apm install increment-selection
 apm install language-apache
 apm install language-babel
 apm install language-blade
@@ -25,12 +29,15 @@ apm install language-graphql
 apm install language-latex
 apm install language-nginx
 apm install language-scala
+apm install language-terraform
 apm install latex
 apm install linter
 apm install linter-eslint
+apm install linter-flow
 apm install linter-js-standard
 apm install linter-ui-default
 apm install minimap
+apm install minimap-bookmarks
 apm install minimap-cursorline
 apm install minimap-find-and-replace
 apm install minimap-git-diff
@@ -39,6 +46,10 @@ apm install minimap-pigments
 apm install pigments
 apm install prettier-atom
 apm install pretty-json
+apm install rainbow-delimiters
+apm install rainbow-tree
+apm install sort-lines
+apm install teletype
 apm install toggle-quotes
 apm install tree-view-copy-relative-path
 
@@ -53,6 +64,7 @@ apm install cobalt2-syntax
 apm install dark-flat-ui
 apm install duotone-dark-syntax
 apm install duotone-light-syntax
+apm install gl-light-syntax
 apm install one-dark-vivid-syntax
 apm install paraiso-dark
 apm install seti-syntax
