@@ -27,6 +27,7 @@ brew install hub
 brew install jq
 brew install kubernetes-cli
 brew install terraform
+brew install awscli
 # Languages + Package Managers
 brew install elixir
 brew install haskell-stack
