@@ -21,13 +21,22 @@ brew install aws-iam-authenticator
 brew install bat
 brew install circleci
 brew install cloc
+brew install curl
 brew install diff-so-fancy
 brew install htop
 brew install hub
 brew install jq
 brew install kubernetes-cli
 brew install terraform
+brew install tflint
 brew install awscli
+brew install colima
+brew install docker
+brew install docker-compose
+brew install minikube
+brew install stripe/stripe-cli/stripe
+brew install pre-commit
+brew install grpcurl
 # Languages + Package Managers
 brew install elixir
 brew install haskell-stack
@@ -40,6 +49,8 @@ brew install yarn --without-node
 # Image Manipulation
 brew install graphicsmagick
 brew install imagemagick --with-webp
+# Video
+brew install ffmpeg
 # Databases
 brew install mongodb
 brew install postgresql
@@ -47,54 +58,57 @@ brew install redis
 brew install rethinkdb
 brew install sqlite
 brew tap sqitchers/sqitch
-brew install sqitch --with-postgres-support
+brew install sqitch --with-postgres-support --without-postgresql
 
 # Install Homebrew Cask Formulae
-brew cask install discord
-brew cask install mactex
-brew cask install spotify
-brew cask install spotify-notifications
-brew cask install spotmenu
-brew cask install xquartz
-brew cask install licecap
+brew install --cask discord
+brew install --cask mactex
+brew install --cask spotify
+brew install --cask spotify-notifications
+brew install --cask spotmenu
+brew install --cask xquartz
+brew install --cask licecap
+brew install --cask monodraw
 # Browsers
-brew cask install firefox
-brew cask install google-chrome
-brew cask install opera
+brew install --cask firefox
+brew install --cask google-chrome
+brew install --cask opera
 # Productivity
-brew cask install dropbox
-brew cask install slack # Hah! Slack isn't productive.
+brew install --cask dropbox
+brew install --cask slack # Hah! Slack isn't productive.
 # Dev Tools
-brew cask install insomnia # See: https://insomnia.rest
-brew cask install iterm2 # See: https://www.iterm2.com
-brew cask install postman # See: https://www.getpostman.com
-brew cask install sublime-text # See: https://www.sublimetext.com
+brew install --cask insomnia # See: https://insomnia.rest
+brew install --cask iterm2 # See: https://www.iterm2.com
+brew install --cask postman # See: https://www.getpostman.com
+brew install --cask atom
+brew install --cask sublime-text # See: https://www.sublimetext.com
 echo -e "Remember to install Package Control: https://packagecontrol.io/installation"
-brew cask install visual-studio-code # See: https://code.visualstudio.com
-brew cask install android-studio
-brew cask install graphiql
-brew cask install graphql-playground
-brwe cask install zeplin
+brew install --cask visual-studio-code # See: https://code.visualstudio.com
+brew install --cask android-studio
+brew install --cask graphiql
+brew install --cask graphql-playground
+brew install --cask zeplin
+brew install --cask bloomrpc
 # Database Related
-brew cask install db-browser-for-sqlite # See: http://sqlitebrowser.org
-brew cask install mysqlworkbench # See: https://www.mysql.com/products/workbench
-brew cask install sequel-pro # See: https://sequelpro.com
-brew cask install postgres
+brew install --cask db-browser-for-sqlite # See: http://sqlitebrowser.org
+brew install --cask mysqlworkbench # See: https://www.mysql.com/products/workbench
+brew install --cask sequel-pro # See: https://sequelpro.com
+brew install --cask postgres
 # Systems Related
 # Install Virtualbox before Vagrant since Vagrant depends on it
-brew cask install virtualbox # See: https://www.virtualbox.org
-brew cask install vagrant # See: https://www.vagrantup.com
-brew cask install docker
-brew cask install google-cloud-sdk
-brew cask install ngrok
+brew install --cask virtualbox # See: https://www.virtualbox.org
+brew install --cask vagrant # See: https://www.vagrantup.com
+brew install --cask docker
+brew install --cask google-cloud-sdk
+brew install --cask ngrok
 
 # Install Homebrew Cask Versions Formulae
 brew tap homebrew/cask-versions
-brew cask install atom-beta
-brew cask install google-chrome-canary
+brew install --cask atom-beta
+brew install --cask google-chrome-canary
 
 # Install Homebrew Fonts Formulae
 brew tap homebrew/cask-fonts
-brew cask install font-fira-code # See: https://github.com/tonsky/FiraCode
-brew cask install font-source-code-pro # See: https://github.com/adobe-fonts/source-code-pro
-brew cask install font-office-code-pro # See: https://github.com/nathco/Office-Code-Pro
+brew install --cask font-fira-code # See: https://github.com/tonsky/FiraCode
+brew install --cask font-source-code-pro # See: https://github.com/adobe-fonts/source-code-pro
+brew install --cask font-office-code-pro # See: https://github.com/nathco/Office-Code-Pro
