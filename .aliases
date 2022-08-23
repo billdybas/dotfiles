@@ -29,5 +29,5 @@ alias "sse-docker-up"="export DOCKER_HOST=tcp://127.0.0.1:32768"
 alias "sse-docker-down"="unset DOCKER_HOST"
 
 alias kn="killall node"
-alias save-ssh="ssh-add -K ~/.ssh/id_rsa"
+alias save-ssh="ssh-add --apple-use-keychain ~/.ssh/id_rsa"
 alias cdtmp="cd `mktemp -d /tmp/bill-XXXXXX`"
