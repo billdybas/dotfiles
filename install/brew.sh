@@ -37,6 +37,7 @@ brew install minikube
 brew install stripe/stripe-cli/stripe
 brew install pre-commit
 brew install grpcurl
+brew install railway
 # Languages + Package Managers
 brew install elixir
 brew install haskell-stack
